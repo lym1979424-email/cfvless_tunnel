@@ -1,13 +1,10 @@
 // src/worker.js
 import { connect } from "cloudflare:sockets";
-var userID = "0648919d-8bf1-4d4c-8525-36cf487506ec";
+var userID = "60d79100-5fe1-4f35-bc6d-905b945aa96e";
 var proxyList = [
-  "cdn-all.xn--b6gac.eu.org",
-  "cdn.xn--b6gac.eu.org",
-  "cdn-b100.xn--b6gac.eu.org",
-  "edgetunnel.anycast.eu.org",
-  "cdn.anycast.eu.org"
-];
+  "jp.wokaotianshi.eu.org",
+  "jp.ipdb.rr.nu",
+ ];
 var proxyIP = proxyList[Math.floor(Math.random() * proxyList.length)];
 var socks5Address = "";
 var ipaddrURL = "https://ipupdate.baipiao.eu.org/";
