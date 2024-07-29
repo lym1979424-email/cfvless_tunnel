@@ -104,7 +104,7 @@ var worker_default = {
             if (!isValidUUID(userID)) {
               throw new Error("uuid is not valid");
             }
-            let defaultPort = hostName.endsWith("workers.dev") ? 8080 : 8443;
+            let defaultPort = hostName.endsWith("workers.dev") ? 8080 : 443;
             let port = portParam || defaultPort;
             let path = pathParam ? encodeURIComponent(pathParam) : "%2F%3Fed%3D2048";
             let ipsArray = [];
