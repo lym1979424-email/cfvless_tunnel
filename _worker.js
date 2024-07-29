@@ -4,6 +4,8 @@ var userID = "60d79100-5fe1-4f35-bc6d-905b945aa96e";
 var proxyList = [
   "jp.wokaotianshi.eu.org",
   "jp.ipdb.rr.nu",
+	"jp.onecf.eu.org",
+  "jp.wlhacker.lol"
  ];
 var proxyIP = proxyList[Math.floor(Math.random() * proxyList.length)];
 var socks5Address = "";
